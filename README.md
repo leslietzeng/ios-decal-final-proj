@@ -28,11 +28,11 @@ This application brings the best of online shopping to traditional shopping for 
 
 ### Model
 * User.swift - Includes parameters such as Username, Password, Current Receipt, Receipts (array of Receipts Objects - optional)
-* Receipt.swift - Array of ItemInfo
-** ItemInfo consists of parameters such as Quantity, Item Name, Barcode, Price Per Item
+* Receipt.swift - Array of ItemInfo Objects. ItemInfo consists of parameters such as Quantity, Item Name, Barcode, Price Per Item
 
 ### View
 * Please see our View Layouts: bit.ly/2e3XM2A
+
 ### Controller
 * Our plan is to have a separate view controller for each view. This is to avoid a lengthy and confusing masterer view controller similar to the calculator homework
 * We also plan to implement an overarching navigation controller that will deal with the transitions between each of our views. 
