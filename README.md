@@ -22,9 +22,10 @@ how much their items are including tax).
 * Checkout and Pay using Credit Card
 
 ## Control Flow
-* Please see the following link for our visual interpretation of our 
+* Please see the following link for our visual interpretation of our  
 application: bit.ly/2e3XM2A
-* Users are initially presented with a splash screen, where they can log in or sign in. When creating a new account, the user would need to input their credit card information. 
+* Users are initially presented with a splash screen, where they can log  
+in or sign in. When creating a new account, the user would need to input their credit card information. 
 * Once done, users would confirm the store that they are shopping at via a user inputted address to match the store’s inventory database (or GPS to locate store - extra feature)
 * Users can then add items by scanning the barcode on each item. Each scanned item will be followed with a confirmation of the item and price. 
 * The app will then update the running total of all items and allows users to delete an item they don’t want anymore
