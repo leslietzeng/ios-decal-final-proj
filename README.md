@@ -7,7 +7,7 @@
 * Daniel Guan
 
 ## Purpose
-This application brings the best of online shopping to traditional shopping 
+This application brings the best of online shopping to traditional shopping /s/s
 for those who prefer to physically inspect their items before purchase. The 
 core purposes of our app allows users to skip long and time consuming check-
 out lines, decreases labor costs associated with store staff, and eliminates 
