@@ -28,7 +28,7 @@ how much their items are including tax).
  * Item Locator - Store Aisle Layout  
  * Photos and Item Description of Items in Shopping List
  * Touch ID for checkout
- * Reviews of Product Scanned
+ * Reviews of Scanned Products
 
 ## Control Flow
 * Please see the following link for our visual interpretation of our  
