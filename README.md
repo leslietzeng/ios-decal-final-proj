@@ -16,20 +16,19 @@ how much their items are including tax).
 
 ## Features
 * Add Item Using Phone Camera Barcode Scanner
-* Display Shopping Cart that includes the Qty, Price, and Title for each item.
+* Display Shopping Cart that includes the Qty, Price, and Title for each item
 * Delete Item
 * Current Shopping Trip’s Running Total
 * Checkout and Pay using Credit Card
-
 * Optional Features:
-* Access Old Receipts 
-* GPS for Store Location
-* Advertised Products/Sales Specific to that Store 
-* Side bar for Item Categories in Inventory
-* Item Locator - Store Aisle Layout  
-* Photos and Item Description of Items in Shopping List
-* Touch ID for checkout
-* Reviews of Product Scanned
+ * Access Old Receipts 
+ * GPS for Store Location
+ * Advertised Products/Sales Specific to that Store 
+ * Side bar for Item Categories in Inventory
+ * Item Locator - Store Aisle Layout  
+ * Photos and Item Description of Items in Shopping List
+ * Touch ID for checkout
+ * Reviews of Product Scanned
 
 ## Control Flow
 * Please see the following link for our visual interpretation of our  
