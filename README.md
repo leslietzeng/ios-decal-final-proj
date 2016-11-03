@@ -17,7 +17,7 @@ This application brings the best of online shopping to traditional shopping for 
 * Checkout and Pay using Credit Card
 
 ## Control Flow
-* Please see the following link for our visual interpretation of our application: https://docs.google.com/presentation/u/1/d/1_Vm-8ZjFD6XrXkac0Xw2EfFia5TL5CrQzb0ecoNmogA/edit?usp=drive_web
+* Please see the following link for our visual interpretation of our application: bit.ly/2e3XM2A
 * Users are initially presented with a splash screen, where they can log in or sign in. When creating a new account, the user would need to input their credit card information. 
 * Once done, users would confirm the store that they are shopping at via a user inputted address to match the store’s inventory database (or GPS to locate store - extra feature)
 * Users can then add items by scanning the barcode on each item. Each scanned item will be followed with a confirmation of the item and price. 
@@ -27,8 +27,13 @@ This application brings the best of online shopping to traditional shopping for 
 ## Implementation
 
 ### Model
-* [List the files in your Model, e.g. Item.Swift]
+* User.swift - Includes parameters such as Username, Password, Current Receipt, Receipts (array of Receipts Objects - optional)
+* Receipt.swift - Array of ItemInfo
+** ItemInfo consists of parameters such as Quantity, Item Name, Barcode, Price Per Item
+
 ### View
-* [List your different Views, e.g. OutfitListTableView]
+* Please see our View Layouts: bit.ly/2e3XM2A
 ### Controller
-* [List the files in your Controller, e.g. OutfitListTableViewController]
+* Our plan is to have a separate view controller for each view. This is to avoid a lengthy and confusing masterer view controller similar to the calculator homework
+* We also plan to implement an overarching navigation controller that will deal with the transitions between each of our views. 
+
