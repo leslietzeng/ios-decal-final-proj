@@ -39,8 +39,9 @@ to delete an item they don’t want anymore
 ## Implementation
 
 ### Model
-* User.swift - Includes parameters such as Username, Password, Current  
-Receipt, Receipts (array of Receipts Objects - optional)
+* User.swift
+ * Includes parameters such as Username, Password, Current  
+ Receipt, Receipts (array of Receipts Objects - optional)
 * Receipt.swift - Array of ItemInfo Objects
   * ItemInfo consists of parameters such as Quantity, Item Name,  
   Barcode, Price Per Item
