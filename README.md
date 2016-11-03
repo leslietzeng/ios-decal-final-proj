@@ -21,6 +21,16 @@ how much their items are including tax).
 * Current Shopping Trip’s Running Total
 * Checkout and Pay using Credit Card
 
+* Optional Features:
+* Access Old Receipts 
+* GPS for Store Location
+* Advertised Products/Sales Specific to that Store 
+* Side bar for Item Categories in Inventory
+* Item Locator - Store Aisle Layout  
+* Photos and Item Description of Items in Shopping List
+* Touch ID for checkout
+* Reviews of Product Scanned
+
 ## Control Flow
 * Please see the following link for our visual interpretation of our  
 application: bit.ly/2e3XM2A
