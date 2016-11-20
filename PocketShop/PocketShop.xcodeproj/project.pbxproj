@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5093611DE1225000730902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093601DE1225000730902 /* AppDelegate.swift */; };
+		CE5093631DE1225000730902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093621DE1225000730902 /* ViewController.swift */; };
+		CE5093661DE1225000730902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5093641DE1225000730902 /* Main.storyboard */; };
+		CE5093691DE1225000730902 /* PocketShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5093671DE1225000730902 /* PocketShop.xcdatamodeld */; };
+		CE50936B1DE1225000730902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE50936A1DE1225000730902 /* Assets.xcassets */; };
+		CE50936E1DE1225000730902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE50936C1DE1225000730902 /* LaunchScreen.storyboard */; };
+		CE5093791DE1225000730902 /* PocketShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093781DE1225000730902 /* PocketShopTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5093751DE1225000730902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5093551DE1225000730902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE50935C1DE1225000730902;
+			remoteInfo = PocketShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE50935D1DE1225000730902 /* PocketShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5093601DE1225000730902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE5093621DE1225000730902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5093651DE1225000730902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5093681DE1225000730902 /* PocketShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketShop.xcdatamodel; sourceTree = "<group>"; };
+		CE50936A1DE1225000730902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE50936D1DE1225000730902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE50936F1DE1225000730902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5093741DE1225000730902 /* PocketShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5093781DE1225000730902 /* PocketShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketShopTests.swift; sourceTree = "<group>"; };
+		CE50937A1DE1225000730902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE50935A1DE1225000730902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5093711DE1225000730902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5093541DE1225000730902 = {
+			isa = PBXGroup;
+			children = (
+				CE50935F1DE1225000730902 /* PocketShop */,
+				CE5093771DE1225000730902 /* PocketShopTests */,
+				CE50935E1DE1225000730902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE50935E1DE1225000730902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE50935D1DE1225000730902 /* PocketShop.app */,
+				CE5093741DE1225000730902 /* PocketShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE50935F1DE1225000730902 /* PocketShop */ = {
+			isa = PBXGroup;
+			children = (
+				CE5093601DE1225000730902 /* AppDelegate.swift */,
+				CE5093621DE1225000730902 /* ViewController.swift */,
+				CE5093641DE1225000730902 /* Main.storyboard */,
+				CE50936A1DE1225000730902 /* Assets.xcassets */,
+				CE50936C1DE1225000730902 /* LaunchScreen.storyboard */,
+				CE50936F1DE1225000730902 /* Info.plist */,
+				CE5093671DE1225000730902 /* PocketShop.xcdatamodeld */,
+			);
+			path = PocketShop;
+			sourceTree = "<group>";
+		};
+		CE5093771DE1225000730902 /* PocketShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5093781DE1225000730902 /* PocketShopTests.swift */,
+				CE50937A1DE1225000730902 /* Info.plist */,
+			);
+			path = PocketShopTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE50935C1DE1225000730902 /* PocketShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE50937D1DE1225000730902 /* Build configuration list for PBXNativeTarget "PocketShop" */;
+			buildPhases = (
+				CE5093591DE1225000730902 /* Sources */,
+				CE50935A1DE1225000730902 /* Frameworks */,
+				CE50935B1DE1225000730902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketShop;
+			productName = PocketShop;
+			productReference = CE50935D1DE1225000730902 /* PocketShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5093731DE1225000730902 /* PocketShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5093801DE1225000730902 /* Build configuration list for PBXNativeTarget "PocketShopTests" */;
+			buildPhases = (
+				CE5093701DE1225000730902 /* Sources */,
+				CE5093711DE1225000730902 /* Frameworks */,
+				CE5093721DE1225000730902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5093761DE1225000730902 /* PBXTargetDependency */,
+			);
+			name = PocketShopTests;
+			productName = PocketShopTests;
+			productReference = CE5093741DE1225000730902 /* PocketShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5093551DE1225000730902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Leslie Tzeng";
+				TargetAttributes = {
+					CE50935C1DE1225000730902 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CE5093731DE1225000730902 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE50935C1DE1225000730902;
+					};
+				};
+			};
+			buildConfigurationList = CE5093581DE1225000730902 /* Build configuration list for PBXProject "PocketShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5093541DE1225000730902;
+			productRefGroup = CE50935E1DE1225000730902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE50935C1DE1225000730902 /* PocketShop */,
+				CE5093731DE1225000730902 /* PocketShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE50935B1DE1225000730902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE50936E1DE1225000730902 /* LaunchScreen.storyboard in Resources */,
+				CE50936B1DE1225000730902 /* Assets.xcassets in Resources */,
+				CE5093661DE1225000730902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5093721DE1225000730902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5093591DE1225000730902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5093631DE1225000730902 /* ViewController.swift in Sources */,
+				CE5093611DE1225000730902 /* AppDelegate.swift in Sources */,
+				CE5093691DE1225000730902 /* PocketShop.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5093701DE1225000730902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5093791DE1225000730902 /* PocketShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE5093761DE1225000730902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE50935C1DE1225000730902 /* PocketShop */;
+			targetProxy = CE5093751DE1225000730902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE5093641DE1225000730902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5093651DE1225000730902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE50936C1DE1225000730902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE50936D1DE1225000730902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE50937B1DE1225000730902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE50937C1DE1225000730902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE50937E1DE1225000730902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LTzeng.PocketShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE50937F1DE1225000730902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LTzeng.PocketShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE5093811DE1225000730902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LTzeng.PocketShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketShop.app/PocketShop";
+			};
+			name = Debug;
+		};
+		CE5093821DE1225000730902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LTzeng.PocketShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketShop.app/PocketShop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5093581DE1225000730902 /* Build configuration list for PBXProject "PocketShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE50937B1DE1225000730902 /* Debug */,
+				CE50937C1DE1225000730902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE50937D1DE1225000730902 /* Build configuration list for PBXNativeTarget "PocketShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE50937E1DE1225000730902 /* Debug */,
+				CE50937F1DE1225000730902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE5093801DE1225000730902 /* Build configuration list for PBXNativeTarget "PocketShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5093811DE1225000730902 /* Debug */,
+				CE5093821DE1225000730902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE5093671DE1225000730902 /* PocketShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE5093681DE1225000730902 /* PocketShop.xcdatamodel */,
+			);
+			currentVersion = CE5093681DE1225000730902 /* PocketShop.xcdatamodel */;
+			path = PocketShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE5093551DE1225000730902 /* Project object */;
+}
