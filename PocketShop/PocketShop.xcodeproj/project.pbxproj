@@ -14,6 +14,8 @@
 		CE50936B1DE1225000730902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE50936A1DE1225000730902 /* Assets.xcassets */; };
 		CE50936E1DE1225000730902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE50936C1DE1225000730902 /* LaunchScreen.storyboard */; };
 		CE5093791DE1225000730902 /* PocketShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093781DE1225000730902 /* PocketShopTests.swift */; };
+		CE5093841DE1369B00730902 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093831DE1369B00730902 /* LoginViewController.swift */; };
+		CE5093861DE15E3000730902 /* ContentStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5093851DE15E3000730902 /* ContentStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CE5093741DE1225000730902 /* PocketShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5093781DE1225000730902 /* PocketShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketShopTests.swift; sourceTree = "<group>"; };
 		CE50937A1DE1225000730902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5093831DE1369B00730902 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE5093851DE15E3000730902 /* ContentStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContentStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			children = (
 				CE5093601DE1225000730902 /* AppDelegate.swift */,
 				CE5093621DE1225000730902 /* ViewController.swift */,
+				CE5093831DE1369B00730902 /* LoginViewController.swift */,
 				CE5093641DE1225000730902 /* Main.storyboard */,
+				CE5093851DE15E3000730902 /* ContentStoryboard.storyboard */,
 				CE50936A1DE1225000730902 /* Assets.xcassets */,
 				CE50936C1DE1225000730902 /* LaunchScreen.storyboard */,
 				CE50936F1DE1225000730902 /* Info.plist */,
@@ -185,6 +191,7 @@
 				CE50936E1DE1225000730902 /* LaunchScreen.storyboard in Resources */,
 				CE50936B1DE1225000730902 /* Assets.xcassets in Resources */,
 				CE5093661DE1225000730902 /* Main.storyboard in Resources */,
+				CE5093861DE15E3000730902 /* ContentStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5093841DE1369B00730902 /* LoginViewController.swift in Sources */,
 				CE5093631DE1225000730902 /* ViewController.swift in Sources */,
 				CE5093611DE1225000730902 /* AppDelegate.swift in Sources */,
 				CE5093691DE1225000730902 /* PocketShop.xcdatamodeld in Sources */,
