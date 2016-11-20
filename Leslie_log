@@ -1,0 +1,10 @@
+11/19/16 Leslie
+
+For login, use this API: https://firebase.google.com/docs/auth/
+
+Need static cells for the store view
+I’m thinking cells with an image on left, description, and price, maybe aisle number on the right.
+3 sections right now
+have to fix auto layout for the table static cell heights to fit different devices
+
+have to use stack overflow code to set height of text box for address
