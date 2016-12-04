@@ -23,7 +23,7 @@ class LocatorViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         // from lecture
                 manager.delegate = self
-        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.desiredAccuracy = kCLLocationAccuracyHundredMeters
         if !(CLLocationManager.locationServicesEnabled()) {
             let alertController = UIAlertController(
                 title: "Location Services Disabled",
