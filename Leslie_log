@@ -8,3 +8,12 @@ I’m thinking cells with an image on left, description, and price, maybe aisle 
 have to fix auto layout for the table static cell heights to fit different devices
 
 have to use stack overflow code to set height of text box for address
+
+12/3/16 Leslie
+
+Still need to integrate firebase API to do login. It seems like we can also use this to find nearest stores (if we end up implementing this.)
+
+Still need to unwind segue for the “create account” branch of storyboard
+
+All the tableviews are basically done. Information passing between VCs is all good except for passing the store to the cart for looking up pricing. (fix this soon.)
+
