@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE100F0C1DF3A1FE00D93819 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0B1DF3A1FE00D93819 /* CartItem.swift */; };
+		CE100F0D1DF3A1FE00D93819 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0B1DF3A1FE00D93819 /* CartItem.swift */; };
+		CE100F0F1DF3A4F400D93819 /* testTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0E1DF3A4F400D93819 /* testTableViewController.swift */; };
+		CE100F111DF3B82300D93819 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F101DF3B82300D93819 /* StoreViewController.swift */; };
+		CE3599861DF2DE9900EB31DC /* LocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */; };
 		CE5093611DE1225000730902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093601DE1225000730902 /* AppDelegate.swift */; };
 		CE5093631DE1225000730902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093621DE1225000730902 /* ViewController.swift */; };
 		CE5093661DE1225000730902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5093641DE1225000730902 /* Main.storyboard */; };
-		CE5093691DE1225000730902 /* PocketShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5093671DE1225000730902 /* PocketShop.xcdatamodeld */; };
 		CE50936B1DE1225000730902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE50936A1DE1225000730902 /* Assets.xcassets */; };
 		CE50936E1DE1225000730902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE50936C1DE1225000730902 /* LaunchScreen.storyboard */; };
 		CE5093791DE1225000730902 /* PocketShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093781DE1225000730902 /* PocketShopTests.swift */; };
 		CE5093841DE1369B00730902 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093831DE1369B00730902 /* LoginViewController.swift */; };
-		CE5093861DE15E3000730902 /* ContentStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5093851DE15E3000730902 /* ContentStoryboard.storyboard */; };
+		CE9B4B2D1DF2EB9600855AEC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B2C1DF2EB9600855AEC /* Store.swift */; };
+		CE9B4B2E1DF2EB9600855AEC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B2C1DF2EB9600855AEC /* Store.swift */; };
+		CE9B4B301DF2EC0000855AEC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B2F1DF2EC0000855AEC /* Item.swift */; };
+		CE9B4B311DF2EC0000855AEC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B2F1DF2EC0000855AEC /* Item.swift */; };
+		CE9B4B331DF2F1DD00855AEC /* CartItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B321DF2F1DD00855AEC /* CartItemTableViewCell.swift */; };
+		CE9B4B351DF2F2A500855AEC /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B341DF2F2A500855AEC /* CartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,11 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE100F0B1DF3A1FE00D93819 /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		CE100F0E1DF3A4F400D93819 /* testTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTableViewController.swift; sourceTree = "<group>"; };
+		CE100F101DF3B82300D93819 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatorViewController.swift; sourceTree = "<group>"; };
+		CE3599881DF2DF5D00EB31DC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CE50935D1DE1225000730902 /* PocketShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5093601DE1225000730902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5093621DE1225000730902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE5093651DE1225000730902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE5093681DE1225000730902 /* PocketShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PocketShop.xcdatamodel; sourceTree = "<group>"; };
 		CE50936A1DE1225000730902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE50936D1DE1225000730902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE50936F1DE1225000730902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +54,10 @@
 		CE5093781DE1225000730902 /* PocketShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketShopTests.swift; sourceTree = "<group>"; };
 		CE50937A1DE1225000730902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5093831DE1369B00730902 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		CE5093851DE15E3000730902 /* ContentStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ContentStoryboard.storyboard; sourceTree = "<group>"; };
+		CE9B4B2C1DF2EB9600855AEC /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CE9B4B2F1DF2EC0000855AEC /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CE9B4B321DF2F1DD00855AEC /* CartItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemTableViewCell.swift; sourceTree = "<group>"; };
+		CE9B4B341DF2F2A500855AEC /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +78,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3599871DF2DF5D00EB31DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3599881DF2DF5D00EB31DC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE5093541DE1225000730902 = {
 			isa = PBXGroup;
 			children = (
 				CE50935F1DE1225000730902 /* PocketShop */,
 				CE5093771DE1225000730902 /* PocketShopTests */,
 				CE50935E1DE1225000730902 /* Products */,
+				CE3599871DF2DF5D00EB31DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,11 +112,17 @@
 				CE5093621DE1225000730902 /* ViewController.swift */,
 				CE5093831DE1369B00730902 /* LoginViewController.swift */,
 				CE5093641DE1225000730902 /* Main.storyboard */,
-				CE5093851DE15E3000730902 /* ContentStoryboard.storyboard */,
 				CE50936A1DE1225000730902 /* Assets.xcassets */,
 				CE50936C1DE1225000730902 /* LaunchScreen.storyboard */,
 				CE50936F1DE1225000730902 /* Info.plist */,
-				CE5093671DE1225000730902 /* PocketShop.xcdatamodeld */,
+				CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */,
+				CE100F101DF3B82300D93819 /* StoreViewController.swift */,
+				CE9B4B341DF2F2A500855AEC /* CartViewController.swift */,
+				CE9B4B321DF2F1DD00855AEC /* CartItemTableViewCell.swift */,
+				CE9B4B2C1DF2EB9600855AEC /* Store.swift */,
+				CE9B4B2F1DF2EC0000855AEC /* Item.swift */,
+				CE100F0B1DF3A1FE00D93819 /* CartItem.swift */,
+				CE100F0E1DF3A4F400D93819 /* testTableViewController.swift */,
 			);
 			path = PocketShop;
 			sourceTree = "<group>";
@@ -155,6 +186,7 @@
 				TargetAttributes = {
 					CE50935C1DE1225000730902 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FV22LUXAQ4;
 						ProvisioningStyle = Automatic;
 					};
 					CE5093731DE1225000730902 = {
@@ -191,7 +223,6 @@
 				CE50936E1DE1225000730902 /* LaunchScreen.storyboard in Resources */,
 				CE50936B1DE1225000730902 /* Assets.xcassets in Resources */,
 				CE5093661DE1225000730902 /* Main.storyboard in Resources */,
-				CE5093861DE15E3000730902 /* ContentStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,10 +240,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9B4B331DF2F1DD00855AEC /* CartItemTableViewCell.swift in Sources */,
+				CE9B4B2D1DF2EB9600855AEC /* Store.swift in Sources */,
+				CE100F111DF3B82300D93819 /* StoreViewController.swift in Sources */,
 				CE5093841DE1369B00730902 /* LoginViewController.swift in Sources */,
+				CE100F0F1DF3A4F400D93819 /* testTableViewController.swift in Sources */,
+				CE3599861DF2DE9900EB31DC /* LocatorViewController.swift in Sources */,
+				CE100F0C1DF3A1FE00D93819 /* CartItem.swift in Sources */,
+				CE9B4B351DF2F2A500855AEC /* CartViewController.swift in Sources */,
 				CE5093631DE1225000730902 /* ViewController.swift in Sources */,
+				CE9B4B301DF2EC0000855AEC /* Item.swift in Sources */,
 				CE5093611DE1225000730902 /* AppDelegate.swift in Sources */,
-				CE5093691DE1225000730902 /* PocketShop.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +259,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5093791DE1225000730902 /* PocketShopTests.swift in Sources */,
+				CE9B4B311DF2EC0000855AEC /* Item.swift in Sources */,
+				CE100F0D1DF3A1FE00D93819 /* CartItem.swift in Sources */,
+				CE9B4B2E1DF2EB9600855AEC /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV22LUXAQ4;
 				INFOPLIST_FILE = PocketShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LTzeng.PocketShop;
@@ -363,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV22LUXAQ4;
 				INFOPLIST_FILE = PocketShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LTzeng.PocketShop;
@@ -418,6 +461,7 @@
 				CE50937F1DE1225000730902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE5093801DE1225000730902 /* Build configuration list for PBXNativeTarget "PocketShopTests" */ = {
 			isa = XCConfigurationList;
@@ -426,21 +470,9 @@
 				CE5093821DE1225000730902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CE5093671DE1225000730902 /* PocketShop.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CE5093681DE1225000730902 /* PocketShop.xcdatamodel */,
-			);
-			currentVersion = CE5093681DE1225000730902 /* PocketShop.xcdatamodel */;
-			path = PocketShop.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CE5093551DE1225000730902 /* Project object */;
 }
