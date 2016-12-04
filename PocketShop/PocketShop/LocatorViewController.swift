@@ -62,13 +62,17 @@ class LocatorViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         // Ideally we would have code to find the nearest store and load its info. Hard code for now.
-        let exampleProductList:[Item:Float] = [Item(name: "TOBLERONE MILK CHOC", barcode: 0)!:1.50, Item(name:"CLOROX CLEANER",      barcode: 1)!:3.99, Item(name: "SKITTLES",            barcode: 2)!:2.00]
+        let item1 = Item(name: "TOBLERONE MILK CHOC", barcode: 0, image: UIImage(named: "Toblerone")!)!
+        let item2 = Item(name: "CLOROX CLEANER",      barcode: 0, image: UIImage(named: "Clorox")!)!
+        let item3 = Item(name: "SKITTLES",            barcode: 0, image: UIImage(named: "Skittles")!)!
+        let exampleProductList:[Item:Float] = [item1:1.50, item2:3.99, item3:2.00]
         let exampleStore = Store(name: "Target", address: "", productList: exampleProductList)!
         store = exampleStore
-
+    
         // Do any additional setup after loading the view.
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -101,10 +105,11 @@ class LocatorViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender:Any?){
+        print("Segue to store")
         if segue.identifier == "StoreViewSegue" {
             let nav = segue.destination as! UINavigationController
-            let targetVC = nav.viewControllers.first! as UIViewController
-            //targetVC.someValue = self.someValue
+            let storeVC = nav.viewControllers.first as! StoreViewController
+            storeVC.store = self.store
         }
     }
 

@@ -15,10 +15,11 @@ class Item: Hashable, Equatable {
     var hashValue:Int
     
     
-    init?(name:String, barcode:Int) {
+    init?(name:String, barcode:Int, image:UIImage) {
         self.name = name
         self.barcode = barcode
         self.hashValue = name.hashValue + barcode.hashValue
+        self.image = image
     }
     static func ==(lhs: Item, rhs: Item) -> Bool {
         return lhs.hashValue == rhs.hashValue

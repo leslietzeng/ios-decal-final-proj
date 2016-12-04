@@ -11,6 +11,7 @@
 		CE100F0D1DF3A1FE00D93819 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0B1DF3A1FE00D93819 /* CartItem.swift */; };
 		CE100F0F1DF3A4F400D93819 /* testTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0E1DF3A4F400D93819 /* testTableViewController.swift */; };
 		CE100F111DF3B82300D93819 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F101DF3B82300D93819 /* StoreViewController.swift */; };
+		CE100F131DF3C28500D93819 /* StoreViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F121DF3C28500D93819 /* StoreViewTableViewCell.swift */; };
 		CE3599861DF2DE9900EB31DC /* LocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */; };
 		CE5093611DE1225000730902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093601DE1225000730902 /* AppDelegate.swift */; };
 		CE5093631DE1225000730902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093621DE1225000730902 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		CE100F0B1DF3A1FE00D93819 /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
 		CE100F0E1DF3A4F400D93819 /* testTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTableViewController.swift; sourceTree = "<group>"; };
 		CE100F101DF3B82300D93819 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		CE100F121DF3C28500D93819 /* StoreViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewTableViewCell.swift; sourceTree = "<group>"; };
 		CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatorViewController.swift; sourceTree = "<group>"; };
 		CE3599881DF2DF5D00EB31DC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CE50935D1DE1225000730902 /* PocketShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 				CE50936F1DE1225000730902 /* Info.plist */,
 				CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */,
 				CE100F101DF3B82300D93819 /* StoreViewController.swift */,
+				CE100F121DF3C28500D93819 /* StoreViewTableViewCell.swift */,
 				CE9B4B341DF2F2A500855AEC /* CartViewController.swift */,
 				CE9B4B321DF2F1DD00855AEC /* CartItemTableViewCell.swift */,
 				CE9B4B2C1DF2EB9600855AEC /* Store.swift */,
@@ -242,6 +245,7 @@
 			files = (
 				CE9B4B331DF2F1DD00855AEC /* CartItemTableViewCell.swift in Sources */,
 				CE9B4B2D1DF2EB9600855AEC /* Store.swift in Sources */,
+				CE100F131DF3C28500D93819 /* StoreViewTableViewCell.swift in Sources */,
 				CE100F111DF3B82300D93819 /* StoreViewController.swift in Sources */,
 				CE5093841DE1369B00730902 /* LoginViewController.swift in Sources */,
 				CE100F0F1DF3A4F400D93819 /* testTableViewController.swift in Sources */,

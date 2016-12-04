@@ -14,6 +14,8 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     //MARK: Properties
     @IBOutlet weak var tableView: UITableView!
     var cartItems = [CartItem]()
+    var total: Float = 0
+    @IBOutlet weak var subtotalLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,14 +28,24 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func loadSampleCart() {
-        let item1 = CartItem(item: Item(name: "TOBLERONE MILK CHOC", barcode: 0)!, price: 1.50, quantity: 10)!
-        let item2 = CartItem(item: Item(name: "CLOROX CLEANER",      barcode: 0)!, price: 3.99, quantity: 2)!
-        let item3 = CartItem(item: Item(name: "SKITTLES",            barcode: 0)!, price: 2.00, quantity: 10)!
-        cartItems += [item1, item2, item3]
-        
+        let item1 = Item(name: "TOBLERONE MILK CHOC", barcode: 0, image: UIImage(named: "Toblerone")!)!
+        let item2 = Item(name: "CLOROX CLEANER",      barcode: 0, image: UIImage(named: "Clorox")!)!
+        let item3 = Item(name: "SKITTLES",            barcode: 0, image: UIImage(named: "Skittles")!)!
+        let cartItem1 = CartItem(item: item1, price: 1.50, quantity: 10)!
+        let cartItem2 = CartItem(item: item2, price: 3.99, quantity: 2)!
+        let cartItem3 = CartItem(item: item3, price: 2.00, quantity: 10)!
+        cartItems += [cartItem1, cartItem2, cartItem3]
+        updateTotal()
         
     }
-    
+    func updateTotal() {
+        total = 0
+        for cartItem in cartItems {
+            total += cartItem.price * Float(cartItem.quantity)
+        }
+        subtotalLabel.text = String(format:"$%.2f", total)
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -79,5 +91,10 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
+    // MARK: Actions
+    @IBAction func cancel(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     
 }
