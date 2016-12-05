@@ -1,9 +1,11 @@
 # Pocket Shop
 
 ## Authors
-* Jimmy Huang
 * Leslie Tzeng
 * Justin Kim
+
+## Contributors
+* Jimmy Huang
 * Daniel Guan
 
 ## Purpose

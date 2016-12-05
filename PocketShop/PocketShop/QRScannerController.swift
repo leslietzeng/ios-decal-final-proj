@@ -1,7 +1,7 @@
 //
 //  QRScannerController.swift
 //  QRCodeReader
-//
+//  NOTE by Leslie Tzeng: We borrowed this code from an App Coda tutorial for a QR/Barcode Scanner.
 //  Created by Simon Ng on 13/10/2016.
 //  Copyright © 2016 AppCoda. All rights reserved.
 //
