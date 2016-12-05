@@ -7,15 +7,21 @@
 //
 
 import UIKit
+import AVFoundation
 
 class Item: Hashable, Equatable {
     var image: UIImage?
-    var barcode:Int
+    var barcode:String?
     var name:String
     var hashValue:Int
     
+    init?(name:String, image:UIImage) {
+        self.name = name
+        self.hashValue = name.hashValue
+        self.image = image
+    }
     
-    init?(name:String, barcode:Int, image:UIImage) {
+    init?(name:String, barcode:String, image:UIImage) {
         self.name = name
         self.barcode = barcode
         self.hashValue = name.hashValue + barcode.hashValue

@@ -70,6 +70,13 @@ class StoreViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return "Featured Items"
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //find root controller
+        let nav = segue.destination as! UINavigationController
+        let destination = nav.topViewController as! CartViewController
+        destination.store = self.store
+    }
+    
     
     
 

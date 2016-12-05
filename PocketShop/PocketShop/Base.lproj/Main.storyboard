@@ -539,7 +539,7 @@
                                         <rect key="frame" x="0.0" y="28" width="343" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fiq-8e-jmM" id="Vt6-zm-i6k">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="69"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Toblerone" translatesAutoresizingMaskIntoConstraints="NO" id="N8h-d3-foB">
@@ -648,7 +648,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="343" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2HH-JV-vbZ" id="7Vc-eC-ijJ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="49"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="343" height="49.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTD-Fa-NZl" userLabel="Quantity">
@@ -734,7 +734,11 @@
                                 <action selector="cancel:" destination="IT3-eR-d4d" id="ti5-Zm-gUA"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="FX3-CO-UBs"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="FX3-CO-UBs">
+                            <connections>
+                                <segue destination="FBT-6v-hjJ" kind="presentation" id="tQo-or-Uuq"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="subtotalLabel" destination="wbv-AI-d2e" id="bPO-Gd-Bg0"/>
@@ -774,7 +778,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="snG-Pw-cQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9084" y="-1417"/>
+            <point key="canvasLocation" x="8329" y="-585"/>
         </scene>
         <!--LoginNavigationController-->
         <scene sceneID="VoW-VR-6QL">
@@ -834,6 +838,74 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S5A-yK-dxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7574" y="-1417"/>
+        </scene>
+        <!--Scan-->
+        <scene sceneID="JoK-ov-2vu">
+            <objects>
+                <viewController id="aHZ-tG-0aa" customClass="QRScannerController" customModule="PocketShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LKk-sb-AMT"/>
+                        <viewControllerLayoutGuide type="bottom" id="dC7-T7-Bzh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ctb-f3-Eg8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No code detected." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5h-ri-Zgx">
+                                <rect key="frame" x="0.0" y="609" width="375" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfX-Ct-ZCx" userLabel="HackyButton">
+                                <rect key="frame" x="0.0" y="609" width="375" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="HackyButton"/>
+                                <connections>
+                                    <segue destination="DjI-NZ-j6R" kind="unwind" unwindAction="unwindToViewControllerWithSender:" id="L98-8k-P8V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scan" id="Wcr-IS-VeX">
+                        <barButtonItem key="rightBarButtonItem" title="Close" id="2IC-XF-aVm">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="DjI-NZ-j6R" kind="unwind" unwindAction="unwindToViewControllerWithSender:" id="N1E-CN-uRf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="closeButton" destination="2IC-XF-aVm" id="CFb-9l-P92"/>
+                        <outlet property="messageLabel" destination="l5h-ri-Zgx" id="6Q1-EI-RIQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O0i-Ep-pNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="DjI-NZ-j6R" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="9996" y="-1417.2413793103449"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KKm-ob-NPY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FBT-6v-hjJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="w1K-vr-mBg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aHZ-tG-0aa" kind="relationship" relationship="rootViewController" id="6Rk-AC-Wgh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ic-mC-AVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9170" y="-1415"/>
         </scene>
     </scenes>
     <resources>

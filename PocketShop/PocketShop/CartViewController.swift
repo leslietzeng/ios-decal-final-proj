@@ -16,6 +16,7 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     var cartItems = [CartItem]()
     var total: Float = 0
     @IBOutlet weak var subtotalLabel: UILabel!
+    var store: Store?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,9 +29,9 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func loadSampleCart() {
-        let item1 = Item(name: "TOBLERONE MILK CHOC", barcode: 0, image: UIImage(named: "Toblerone")!)!
-        let item2 = Item(name: "CLOROX CLEANER",      barcode: 0, image: UIImage(named: "Clorox")!)!
-        let item3 = Item(name: "SKITTLES",            barcode: 0, image: UIImage(named: "Skittles")!)!
+        let item1 = Item(name: "TOBLERONE MILK CHOC", image: UIImage(named: "Toblerone")!)!
+        let item2 = Item(name: "CLOROX CLEANER", image: UIImage(named: "Clorox")!)!
+        let item3 = Item(name: "SKITTLES", image: UIImage(named: "Skittles")!)!
         let cartItem1 = CartItem(item: item1, price: 1.50, quantity: 10)!
         let cartItem2 = CartItem(item: item2, price: 3.99, quantity: 2)!
         let cartItem3 = CartItem(item: item3, price: 2.00, quantity: 10)!
@@ -95,6 +96,26 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBAction func cancel(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
+    @IBAction func unwindToViewController(sender: UIStoryboardSegue)
+    {
+        let sourceViewController = sender.source as! QRScannerController
+        // Pull any data from the view controller which initiated the unwind segue.
+        //technically lookup from barcode to Item
+        let item1 = Item(name: "KIMCHI FRIED RICE", barcode: sourceViewController.messageLabel.text!, image: UIImage(named:"KimchiFriedRice")!)!
+        let price1 = store!.productList[item1]!
+        var found = false
+        for cartItem in cartItems {
+            if cartItem.name == item1.name {
+                cartItem.quantity += 1
+                found = true
+            }
+        }
+        if !found {
+            cartItems += [CartItem(item: item1, price: price1, quantity: 1)!]
+        }
+        updateTotal()
+        self.tableView.reloadData()
+        
+    }
     
 }

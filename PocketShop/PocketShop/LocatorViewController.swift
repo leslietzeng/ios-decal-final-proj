@@ -62,10 +62,11 @@ class LocatorViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         // Ideally we would have code to find the nearest store and load its info. Hard code for now.
-        let item1 = Item(name: "TOBLERONE MILK CHOC", barcode: 0, image: UIImage(named: "Toblerone")!)!
-        let item2 = Item(name: "CLOROX CLEANER",      barcode: 0, image: UIImage(named: "Clorox")!)!
-        let item3 = Item(name: "SKITTLES",            barcode: 0, image: UIImage(named: "Skittles")!)!
-        let exampleProductList:[Item:Float] = [item1:1.50, item2:3.99, item3:2.00]
+        let item1 = Item(name: "TOBLERONE MILK CHOC", image: UIImage(named: "Toblerone")!)!
+        let item2 = Item(name: "CLOROX CLEANER", image: UIImage(named: "Clorox")!)!
+        let item3 = Item(name: "SKITTLES", image: UIImage(named: "Skittles")!)!
+        let item4 = Item(name: "KIMCHI FRIED RICE", barcode: "0012345678905", image: UIImage(named: "KimchiFriedRice")!)!
+        let exampleProductList:[Item:Float] = [item1:1.50, item2:3.99, item3:2.00, item4:9.99]
         let exampleStore = Store(name: "Target", address: "", productList: exampleProductList)!
         store = exampleStore
     
