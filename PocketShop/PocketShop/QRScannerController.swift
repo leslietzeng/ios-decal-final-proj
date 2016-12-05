@@ -121,5 +121,6 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
     
     
     
+    
 
 }

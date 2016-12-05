@@ -98,24 +98,25 @@ class CartViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     @IBAction func unwindToViewController(sender: UIStoryboardSegue)
     {
-        let sourceViewController = sender.source as! QRScannerController
-        // Pull any data from the view controller which initiated the unwind segue.
-        //technically lookup from barcode to Item
-        let item1 = Item(name: "KIMCHI FRIED RICE", barcode: sourceViewController.messageLabel.text!, image: UIImage(named:"KimchiFriedRice")!)!
-        let price1 = store!.productList[item1]!
-        var found = false
-        for cartItem in cartItems {
-            if cartItem.name == item1.name {
-                cartItem.quantity += 1
-                found = true
+        if sender.identifier == "hackyButtonSegue" {
+            let sourceViewController = sender.source as! QRScannerController
+            // Pull any data from the view controller which initiated the unwind segue.
+            //technically lookup from barcode to Item
+            let item1 = Item(name: "KIMCHI FRIED RICE", barcode: sourceViewController.messageLabel.text!, image: UIImage(named:"KimchiFriedRice")!)!
+            let price1 = store!.productList[item1]!
+            var found = false
+            for cartItem in cartItems {
+                if cartItem.name == item1.name {
+                    cartItem.quantity += 1
+                    found = true
+                }
             }
+            if !found {
+                cartItems += [CartItem(item: item1, price: price1, quantity: 1)!]
+            }
+            updateTotal()
+            self.tableView.reloadData()
         }
-        if !found {
-            cartItems += [CartItem(item: item1, price: price1, quantity: 1)!]
-        }
-        updateTotal()
-        self.tableView.reloadData()
-        
     }
     
 }

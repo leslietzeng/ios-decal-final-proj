@@ -24,16 +24,6 @@ class LocatorViewController: UIViewController, CLLocationManagerDelegate {
         // from lecture
                 manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyHundredMeters
-        if !(CLLocationManager.locationServicesEnabled()) {
-            let alertController = UIAlertController(
-                title: "Location Services Disabled",
-                message: "In order to determine your nearest store, please open Settings and turn on Location Services",
-                preferredStyle: .alert)
-            let cancelAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-            alertController.addAction(cancelAction)
-            self.present(alertController, animated: true, completion: nil)
-            
-        }
         switch CLLocationManager.authorizationStatus() {
             case .authorized:
                 manager.requestLocation()
@@ -58,6 +48,16 @@ class LocatorViewController: UIViewController, CLLocationManagerDelegate {
                 alertController.addAction(cancelAction)
                 alertController.addAction(openAction)
                 self.present(alertController, animated: true, completion: nil)
+            
+        }
+        if !(CLLocationManager.locationServicesEnabled()) {
+            let alertController = UIAlertController(
+                title: "Location Services Disabled",
+                message: "In order to determine your nearest store, please open Settings and turn on Location Services",
+                preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(cancelAction)
+            self.present(alertController, animated: true, completion: nil)
             
         }
         

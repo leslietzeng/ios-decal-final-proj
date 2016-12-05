@@ -1,12 +1,12 @@
 # Pocket Shop
 
 ## Authors
+* Jimmy Huang
+* Daniel Guan
 * Leslie Tzeng
 * Justin Kim
 
-## Contributors
-* Jimmy Huang
-* Daniel Guan
+
 
 ## Purpose
 This application brings the best of online shopping to traditional shopping  
