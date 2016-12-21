@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1C086C23A3E57DFA263557 /* Pods_PocketShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C21BA593440F5C28732D75 /* Pods_PocketShop.framework */; };
 		CE100F0C1DF3A1FE00D93819 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0B1DF3A1FE00D93819 /* CartItem.swift */; };
 		CE100F0D1DF3A1FE00D93819 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0B1DF3A1FE00D93819 /* CartItem.swift */; };
 		CE100F0F1DF3A4F400D93819 /* testTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F0E1DF3A4F400D93819 /* testTableViewController.swift */; };
 		CE100F111DF3B82300D93819 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F101DF3B82300D93819 /* StoreViewController.swift */; };
 		CE100F131DF3C28500D93819 /* StoreViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE100F121DF3C28500D93819 /* StoreViewTableViewCell.swift */; };
 		CE3599861DF2DE9900EB31DC /* LocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */; };
+		CE47E37D1E0A23D500098CAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE47E37C1E0A23D500098CAC /* GoogleService-Info.plist */; };
 		CE5093611DE1225000730902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093601DE1225000730902 /* AppDelegate.swift */; };
 		CE5093631DE1225000730902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5093621DE1225000730902 /* ViewController.swift */; };
 		CE5093661DE1225000730902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5093641DE1225000730902 /* Main.storyboard */; };
@@ -27,6 +29,7 @@
 		CE9B4B311DF2EC0000855AEC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B2F1DF2EC0000855AEC /* Item.swift */; };
 		CE9B4B331DF2F1DD00855AEC /* CartItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B321DF2F1DD00855AEC /* CartItemTableViewCell.swift */; };
 		CE9B4B351DF2F2A500855AEC /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B4B341DF2F2A500855AEC /* CartViewController.swift */; };
+		EEAEF1C22B83BF8E61D9845F /* Pods_PocketShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E379DCE7B20D57746101D5 /* Pods_PocketShopTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B06976E348B7EAC0BDA892 /* Pods-PocketShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketShopTests/Pods-PocketShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FA8A40DE3A3C70ED22A31C6 /* Pods-PocketShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketShop/Pods-PocketShop.release.xcconfig"; sourceTree = "<group>"; };
+		28C96C730E22E2D02B215805 /* Pods-PocketShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PocketShopTests/Pods-PocketShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		41E379DCE7B20D57746101D5 /* Pods_PocketShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95301401303F03A2443A97B /* Pods-PocketShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocketShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PocketShop/Pods-PocketShop.debug.xcconfig"; sourceTree = "<group>"; };
 		CE100F0B1DF3A1FE00D93819 /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
 		CE100F0E1DF3A4F400D93819 /* testTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTableViewController.swift; sourceTree = "<group>"; };
 		CE100F101DF3B82300D93819 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		CE100F121DF3C28500D93819 /* StoreViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewTableViewCell.swift; sourceTree = "<group>"; };
 		CE3599851DF2DE9900EB31DC /* LocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatorViewController.swift; sourceTree = "<group>"; };
 		CE3599881DF2DF5D00EB31DC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE47E37C1E0A23D500098CAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE50935D1DE1225000730902 /* PocketShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5093601DE1225000730902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5093621DE1225000730902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +71,7 @@
 		CE9B4B2F1DF2EC0000855AEC /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CE9B4B321DF2F1DD00855AEC /* CartItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItemTableViewCell.swift; sourceTree = "<group>"; };
 		CE9B4B341DF2F2A500855AEC /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		E3C21BA593440F5C28732D75 /* Pods_PocketShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocketShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1C086C23A3E57DFA263557 /* Pods_PocketShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,16 +87,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEAEF1C22B83BF8E61D9845F /* Pods_PocketShopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34B220C2053BB7859478695B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C95301401303F03A2443A97B /* Pods-PocketShop.debug.xcconfig */,
+				1FA8A40DE3A3C70ED22A31C6 /* Pods-PocketShop.release.xcconfig */,
+				17B06976E348B7EAC0BDA892 /* Pods-PocketShopTests.debug.xcconfig */,
+				28C96C730E22E2D02B215805 /* Pods-PocketShopTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE3599871DF2DF5D00EB31DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				CE3599881DF2DF5D00EB31DC /* MapKit.framework */,
+				E3C21BA593440F5C28732D75 /* Pods_PocketShop.framework */,
+				41E379DCE7B20D57746101D5 /* Pods_PocketShopTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +121,7 @@
 				CE50935F1DE1225000730902 /* PocketShop */,
 				CE50935E1DE1225000730902 /* Products */,
 				CE3599871DF2DF5D00EB31DC /* Frameworks */,
+				34B220C2053BB7859478695B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +137,7 @@
 		CE50935F1DE1225000730902 /* PocketShop */ = {
 			isa = PBXGroup;
 			children = (
+				CE47E37C1E0A23D500098CAC /* GoogleService-Info.plist */,
 				CE5093601DE1225000730902 /* AppDelegate.swift */,
 				CE5093621DE1225000730902 /* ViewController.swift */,
 				CE5093831DE1369B00730902 /* LoginViewController.swift */,
@@ -149,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE50937D1DE1225000730902 /* Build configuration list for PBXNativeTarget "PocketShop" */;
 			buildPhases = (
+				EBC45C72AE4E5A050A0DF2DF /* [CP] Check Pods Manifest.lock */,
 				CE5093591DE1225000730902 /* Sources */,
 				CE50935A1DE1225000730902 /* Frameworks */,
 				CE50935B1DE1225000730902 /* Resources */,
+				BB136E08E2B6D1CB54A265F9 /* [CP] Embed Pods Frameworks */,
+				93340C5492CD17AAD9BA854E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE5093801DE1225000730902 /* Build configuration list for PBXNativeTarget "PocketShopTests" */;
 			buildPhases = (
+				66FA8214F38666AFA3A7D5F8 /* [CP] Check Pods Manifest.lock */,
 				CE5093701DE1225000730902 /* Sources */,
 				CE5093711DE1225000730902 /* Frameworks */,
 				CE5093721DE1225000730902 /* Resources */,
+				8066DA0322AFA1EC2296D2E9 /* [CP] Embed Pods Frameworks */,
+				53C4ACB71E2E95A3CB02022B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE50936E1DE1225000730902 /* LaunchScreen.storyboard in Resources */,
+				CE47E37D1E0A23D500098CAC /* GoogleService-Info.plist in Resources */,
 				CE50936B1DE1225000730902 /* Assets.xcassets in Resources */,
 				CE5093661DE1225000730902 /* Main.storyboard in Resources */,
 			);
@@ -240,6 +274,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53C4ACB71E2E95A3CB02022B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketShopTests/Pods-PocketShopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FA8214F38666AFA3A7D5F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8066DA0322AFA1EC2296D2E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketShopTests/Pods-PocketShopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93340C5492CD17AAD9BA854E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketShop/Pods-PocketShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB136E08E2B6D1CB54A265F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PocketShop/Pods-PocketShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC45C72AE4E5A050A0DF2DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE5093591DE1225000730902 /* Sources */ = {
@@ -398,6 +525,7 @@
 		};
 		CE50937E1DE1225000730902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95301401303F03A2443A97B /* Pods-PocketShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -412,6 +540,7 @@
 		};
 		CE50937F1DE1225000730902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA8A40DE3A3C70ED22A31C6 /* Pods-PocketShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -426,6 +555,7 @@
 		};
 		CE5093811DE1225000730902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B06976E348B7EAC0BDA892 /* Pods-PocketShopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -440,6 +570,7 @@
 		};
 		CE5093821DE1225000730902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C96C730E22E2D02B215805 /* Pods-PocketShopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

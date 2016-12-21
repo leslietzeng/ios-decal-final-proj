@@ -31,6 +31,7 @@ class QRScannerController: UIViewController, AVCaptureMetadataOutputObjectsDeleg
                         AVMetadataObjectTypePDF417Code,
                         AVMetadataObjectTypeQRCode]
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

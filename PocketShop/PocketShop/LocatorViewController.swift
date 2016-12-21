@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import Firebase
 
 class LocatorViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -113,6 +114,19 @@ class LocatorViewController: UIViewController, CLLocationManagerDelegate {
             storeVC.store = self.store
         }
     }
+    
+    //MARK: Actions
+    @IBAction func didLogout(_ sender: UIBarButtonItem) {
+        let firebaseAuth = FIRAuth.auth()
+        do {
+            try firebaseAuth?.signOut()
+//            AppState.sharedInstance.signedIn = false
+            dismiss(animated: true, completion: nil)
+        } catch let signOutError as NSError {
+            print ("Error signing out: \(signOutError.localizedDescription)")
+        }
+    }
+    
 
 
 
